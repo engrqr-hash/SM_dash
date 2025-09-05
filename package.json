@@ -1,0 +1,11 @@
+{
+  "name": "unified-composer-proto",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx serve . --listen 5173",
+    "clean-state": "node -e \"localStorage.removeItem('uc_state')\""
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
